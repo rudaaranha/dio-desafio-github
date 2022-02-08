@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <!-- código do site do bootstrap para adicionar uma barra de navegação -->
+        <nav class="navbar navbar-expand-lg navbar-light margin">
+            <a class="navbar-brand" href="#">
+                <img src="img/global_labs.jpg"> <!--adicionar logo da global labs-->
+            </a>
+            <div class="collapse navbar-collapse"> <!--Criando uma divisão para adicionar elementos-->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#serviços">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--Vamos criar uma seção que será linkada com as classes da barra de navegação-->
+        <section id="quemsomos">
+            <div class="container fluid text-center margin quem-somos">
+                <h3 class="margin">QUEM SOMOS</h3>
+                <img src="img/time.jpg" class="rounded-circle" width="350" height="350">
+                <h4>Somos um time comprometidos com os resultados</h4>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h3 class="margin">PARCEIROS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="img/DIO.jpg" width="100%">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/DIO.jpg" width="100%">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="img/DIO.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="serviços">
+            <div class="container-fluid text-center margin serviços">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt
+                                ut labore et dolore magna aliqua
+                            </p>
+                            <img src="img/app.jpg" width="90%">
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt
+                                ut labore et dolore magna aliqua
+                            </p>
+                            <img src="img/site.jpg" width="95%">
+                        </div>
+                        <div class="col-md-4">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidedunt
+                                ut labore et dolore magna aliqua
+                            </p>
+                            <img src="img/site2.jpg" width="101%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center margin bg-footer">
+            <p>Desenvolvido por Rudá Aranha</p>
+        </footer>
+    </body>    
+</html>
