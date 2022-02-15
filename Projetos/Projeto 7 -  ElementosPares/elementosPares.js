@@ -7,6 +7,7 @@ output -> -1
 */
 function elementosPares(array) {
     //código para retonar -1 em caso de array vazio.
+    if (!array) return -1;
     if (!array.length) return -1;
 
     //código para substituir os números pares por zero.
